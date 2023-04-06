@@ -14,7 +14,7 @@
 
         public Student(string line)
         {
-            string[] split = line.Split(',');
+        string[] split = line.Split(',');
             Name = split[0];
             Id = int.Parse(split[1]);
             q = new int[10];
