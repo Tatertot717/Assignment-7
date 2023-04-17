@@ -36,7 +36,7 @@
         {
             foreach (Student student in students)
             {
-                if (student.getName().Equals(name))
+                if (student.getName().ToLower().Equals(name.ToLower()))
                 {
                     Console.WriteLine(student.getGrade());
                     return;
